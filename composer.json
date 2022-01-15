@@ -1,0 +1,26 @@
+{
+    "name": "drupsys/codeception-carbon-module",
+    "type": "library",
+    "license": "MIT",
+    "description": "Codeception module to support consistent carbon time",
+    "authors": [
+        {
+            "name": "Dovydas Rupsys",
+            "email": "dovydas.rupsys@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0",
+        "nesbot/carbon": "^2.50"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVF\\Codeception\\Carbon\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4",
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^2.0"
+    }
+}
